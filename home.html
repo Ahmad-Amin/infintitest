@@ -1,0 +1,713 @@
+
+<!doctype html>
+<html lang="en" ng-app="rilind">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#272F34" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-16x16.png">
+
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/build.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/1app.min.css">
+<link rel="stylesheet" type="text/css" href="css/app.min.css">
+<link rel="stylesheet" href="css/app.min.css">
+
+<link rel="stylesheet" href="css/bottom_contact_css.css">
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-sanitize.js"></script>
+<script src="js/angular/moment.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/angular/base.min.js"></script>
+<script src="js/angular/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+<title>Website Development Company</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Infiniti SOftware provides professional, web design services in Pakistan and is the best solution for high quality responsive website development in national level. We help small businesses achieve fast results through smart and forward thinking online marketing.">
+
+ <style media="screen">
+        .bg-init,
+        .animsition-overlay-slide {
+            z-index: 9 !important;
+            background-color: #9442fe !important;
+            display: block;
+            background-image: url('./img/Group 358.svg');
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-init" ng-controller="HeaderCtrl">
+
+ 
+ <div class="header">
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<div id="myNav" class="overlay_navigationbar nav_scroll">
+<div class="canvas">
+<div class="circles">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+<div class="circless">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+</div>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close <span>x</span></a>
+<div class="overlay-content">
+<a class="nav-link animsition-link" href="./home.html">work</a>
+<a class="nav-link animsition-link" href="./studio.html">Studio</a>
+
+<div class="dropdown mobile-d-n">
+<span class="drop-thing">
+<a class="nav-link animsition-link" href="./services.html">Services <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</span>
+<div class="dropdown-content hidden_menu_new_nav">
+<a class="nav-link animsition-link" href="./webdevelopment.html">Web Development</a>
+<a class="nav-link animsition-link" href="./appdevelopment.html">App Development</a>
+<a class="nav-link animsition-link" href="./digitalmarkiting.html">Digital Marketing</a>
+<a class="nav-link animsition-link" href="./prototype.html">Prototype</a>
+</div>
+</div>
+
+<div class="dropdown desktop-d-n">
+<span class="drop-thing">
+<a class="nav-link animsition-link" href="./services.html">Services</a>
+<i id="button_one_s" onclick="myFunc()" class="fa fa-angle-up desktop-d-n" aria-hidden="true"></i>
+</span>
+<div class="dropdown-content" id="menu_drop">
+<a class="nav-link animsition-link" href="./webdevelopment.html">Web Development</a>
+<a class="nav-link animsition-link" href="./appdevelopment.html">App Development</a>
+<a class="nav-link animsition-link" href="./digitalmarkiting.html">Digital Marketing</a>
+<a class="nav-link animsition-link" href="./prototype.html">Prototype</a>
+</div>
+</div>
+<a class="nav-link animsition-link" href="./contact.html">Contact</a>
+</div>
+</div>
+<div id="verticalmenu" class="slide_navbar">
+<a href="./home.html"><img src="img/logo-03 (1)white.png" alt srcset></a>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="hambuger_navbar_one">
+<img src="img/menu_burger.svg" alt srcset></span>
+<span></span>
+</div> </div>
+
+<div>
+
+<div class="animsition-overlay">
+<section class="main_portfolio" data-0="transform: translateX(0%)" data-4000="transform: translateX(-620%)">
+<section class="new_cover">
+<div class="cover_text">
+<h2>INFINITI Software is a <span>creative agency</span> that builds powerful <span>digital
+solutions.</span></h2>
+</div>
+<div class="canvas">
+<div class="circles">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+<div class="circless">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+</div>
+<div class="view_portfolio">
+<a href="#first_portfolio_order" onclick="scrollWin()">Our Portfolio <img src="img/work/animation_500_lcpd27mg 1.png"></a>
+</div>
+</section>
+
+<section class="wide_portfolio" style="background-color: #4DC2FF;" id="first_portfolio_order">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: rgb(255 255 255 / 80%); color: black;">
+Bayan Pay
+</span>
+<h2>Revolutionizing payment processes</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">73+ Screens</button></a>
+</div>
+<a href="./casestudies/paymentprocesses.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/BayanPay.png" alt="" srcset="">
+</div>
+</div>
+</section>
+
+<section class="wide_portfolio" style="background-color: #5066ED;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #171725; color: white;">
+Community Advisor
+</span>
+<h2>Bringing Communities Together</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">35+ Screens</button></a>
+</div>
+<a href="./casestudies/communityadvisor.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/Community Advisor.png" alt="" srcset="">
+</div>
+</div>
+</section>
+
+
+
+<section class="wide_portfolio" style="background-color: #FD5451;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #FD615E; color: white;">
+Papaya
+</span>
+<h2>Save your favorite Restaurants</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">45+ Screens</button></a>
+</div>
+<a href="./casestudies/papaya.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/Papaya.png" alt="" srcset="">
+</div>
+</div>
+</section>
+
+<section class="wide_portfolio" style="background-color: #F47E3A;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #1E355E; color: white;">
+SmartShip
+</span>
+<h2>Innovating the way businesses sell their goods</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">45+ Screens</button></a>
+</div>
+<a href="./casestudies/smartship.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder end" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/smartship.png" alt="" srcset="" class="u_wide">
+</div>
+</div>
+</section>
+
+<section class="wide_portfolio" style="background: rgb(81,133,221); background: linear-gradient(180deg, rgba(81,133,221,1) 0%, rgba(80,178,230,1) 35%);">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #4DC2FF; color: white;">
+Emoji Zone
+</span>
+<h2>Meet new Friends</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">55+ Screens</button></a>
+</div>
+<a href="./casestudies/emojizone.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/Emoji Zone.png" alt="" srcset="">
+</div>
+</div>
+</section>
+
+<section class="wide_portfolio" style="background-color: #5067EB;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #5E73ED; color: white;">
+Job Advisor
+</span>
+<h2>Be Seen, Be Heard, Be Hired</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">99+ Screens</button></a>
+</div>
+<a href="./casestudies/job-advisor.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder end" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/jobadvisor.png" alt="" srcset="" class="u_wide">
+</div>
+</div>
+</section>
+
+
+<section class="wide_portfolio" style="background-color: #CE455C;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #c75e6f; color: white;">
+Extrashift
+</span>
+<h2>Revolutionizing the hospitality industry</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">39+ Screens</button></a>
+</div>
+<a href="./casestudies/extrashift.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder" data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/Wewrite.png" alt="" srcset="">
+</div>
+</div>
+</section>
+
+
+
+<section class="wide_portfolio" style="background-color: #FED000;">
+<img src="img/work/Subtraction 1.png" alt="" class="rotatebg">
+<div class="background_wide">
+<div class="txt_holder">
+<span class="tag" style="background-color: #000000; color: white;">
+XXSIM
+</span>
+<h2 style="color: black;">International Roaming SIM cards</h2>
+<div class="button_holders">
+<a href="#"><button class="figma"><img src="img/work/Group 32933.png" alt="" srcset=""></button></a>
+<a href="#"><button class="screens">36+ Screens</button></a>
+</div>
+<a href="./casestudies/xxsim.html" class="view_case">View Case <img src="img/work/arrow.png" alt=""></a>
+</div>
+<div class="phoneholder end " data-aos="fade-up" data-aos-delay="100">
+<img src="img/work/xxsim.png" alt="" srcset="" class="u_wide">
+</div>
+</div>
+</section>
+
+<section class="new_contact_section" id="slidebottom">
+<div class="contact_dark_section_new">
+<h5>Let's start a project together</h5>
+<div id="mc_embed_signup">
+<form action="https://api.web3forms.com/submit" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+<div class="input_rows">
+<input type="hidden" name="access_key" value="11adc1dd-2d47-43ae-a237-49962f7728de">
+<input type="hidden" name="redirect" value="https://infiniti.dev/thankyou.html">
+<input type="hidden" name="subject" value= "New form response from Home Form" />
+<label>Full Name</label>
+<input type="text" value="" name="Name" class="" id="mce-FNAME" placeholder="Full Name" required>
+<div class="group">
+<label>Your Email</label>
+<input type="email" value="" name="Email" class="email" id="mce-EMAIL" placeholder="Email" required>
+</div>
+<div class="group">
+    <label>Phone Number</label>
+    <div class="phone-home" >
+        <select class="countries-code" name="Code" >
+            <option value="" selected disabled>Code </option>
+            <option value="93"> AF +93 </option>
+            <option value="355"> AL +355 </option>
+            <option value="1-684"> AS +1-684 </option>
+            <option value="376"> AD +376 </option>
+            <option value="244"> AO +244 </option>
+            <option value="971"> AE +971 </option>
+            <option value="1-264"> AI +1-264 </option>
+            <option value="672"> AQ +672 </option>
+            <option value="1-268"> AG +1-268 </option>
+            <option value="54"> AR +54 </option>
+            <option value="374"> AM +374 </option>
+            <option value="599"> AN +599 </option>
+            <option value="297"> AW +297 </option>
+            <option value="61"> AU +61 </option>
+            <option value="43"> AT +43 </option>
+            <option value="994"> AZ +994 </option>
+            <option value="590"> BL +590 </option>
+            <option value="1-242"> BS +1-242 </option>
+            <option value="973"> BH +973 </option>
+            <option value="880"> BD +880 </option>
+            <option value="1-246"> BB +1-246 </option>
+            <option value="375"> BY +375 </option>
+            <option value="32"> BE +32 </option>
+            <option value="501"> BZ +501 </option>
+            <option value="229"> BJ +229 </option>
+            <option value="1-441"> BM +1-441 </option>
+            <option value="975"> BT +975 </option>
+            <option value="591"> BO +591 </option>
+            <option value="387"> BA +387 </option>
+            <option value="267"> BW +267 </option>
+            <option value="55"> BR +55 </option>
+            <option value="673"> BN +673 </option>
+            <option value="359"> BG +359 </option>
+            <option value="226"> BF +226 </option>
+            <option value="257"> BI +257 </option>
+            <option value="237"> CM +237 </option>
+            <option value="1"> CA +1 </option>
+            <option value="238"> CV +238 </option>
+            <option value="236"> CF +236 </option>
+            <option value="56"> CL +56 </option>
+            <option value="86"> CN +86 </option>
+            <option value="242"> CG +242 </option>
+            <option value="61"> CX +61 </option>
+            <option value="61"> CC +61 </option>
+            <option value="41"> CH +41 </option>
+            <option value="57"> CO +57 </option>
+            <option value="682"> CK +682 </option>
+            <option value="506"> CR +506 </option>
+            <option value="53"> CU +53 </option>
+            <option value="599"> CW +599 </option>
+            <option value="357"> CY +357 </option>
+            <option value="420"> CZ +420 </option>
+            <option value="225"> CI +225 </option>
+            <option value="243"> CD +243 </option>
+            <option value="49"> DE +49 </option>
+            <option value="45"> DK +45 </option>
+            <option value="253"> DJ +253 </option>
+            <option value="213"> DZ +213 </option>
+            <option value="1-767"> DM +1-767 </option>
+            <option value="1-809, 1-829, 1-849"> DO +1-809 </option>
+            <option value="593"> EC +593 </option>
+            <option value="20"> EG +20 </option>
+            <option value="291"> ER +291 </option>
+            <option value="212"> EH +212 </option>
+            <option value="372"> EE +372 </option>
+            <option value="251"> ET +251 </option>
+            <option value="34"> ES +34 </option>
+            <option value="500"> FK +500 </option>
+            <option value="298"> FO +298 </option>
+            <option value="679"> FJ +679 </option>
+            <option value="358"> FI +358 </option>
+            <option value="691"> FM +691 </option>
+            <option value="33"> FR +33 </option>
+            <option value="241"> GA +241 </option>
+            <option value="220"> GM +220 </option>
+            <option value="240"> GQ +240 </option>
+            <option value="995"> GE +995 </option>
+            <option value="233"> GH +233 </option>
+            <option value="350"> GI +350 </option>
+            <option value="30"> GR +30 </option>
+            <option value="299"> GL +299 </option>
+            <option value="1-473"> GD +1-473 </option>
+            <option value="1-671"> GU +1-671 </option>
+            <option value="44"> GB +44 </option>
+            <option value="502"> GT +502 </option>
+            <option value="44-1481"> GG +44-1481 </option>
+            <option value="224"> GN +224 </option>
+            <option value="245"> GW +245 </option>
+            <option value="592"> GY +592 </option>
+            <option value="509"> HT +509 </option>
+            <option value="385"> HR +385 </option>
+            <option value="504"> HN +504 </option>
+            <option value="852"> HK +852 </option>
+            <option value="36"> HU +36 </option>
+            <option value="354"> IS +354 </option>
+            <option value="91"> IN +91 </option>
+            <option value="246"> IO +246 </option>
+            <option value="62"> ID +62 </option>
+            <option value="98"> IR +98 </option>
+            <option value="964"> IQ +964 </option>
+            <option value="353"> IE +353 </option>
+            <option value="44-1624"> IM +44-1624 </option>
+            <option value="972"> IL +972 </option>
+            <option value="39"> IT +39 </option>
+            <option value="1-876"> JM +1-876 </option>
+            <option value="81"> JP +81 </option>
+            <option value="44-1534"> JE +44-1534 </option>
+            <option value="962"> JO +962 </option>
+            <option value="7"> KZ +7 </option>
+            <option value="1-345"> KY +1-345 </option>
+            <option value="254"> KE +254 </option>
+            <option value="1-869"> KN +1-869 </option>
+            <option value="686"> KI +686 </option>
+            <option value="82"> KR +82 </option>
+            <option value="850"> KP +850 </option>
+            <option value="855"> KH +855 </option>
+            <option value="269"> KM +269 </option>
+            <option value="965"> KW +965 </option>
+            <option value="996"> KG +996 </option>
+            <option value="856"> LA +856 </option>
+            <option value="371"> LV +371 </option>
+            <option value="961"> LB +961 </option>
+            <option value="266"> LS +266 </option>
+            <option value="231"> LR +231 </option>
+            <option value="218"> LY +218 </option>
+            <option value="423"> LI +423 </option>
+            <option value="370"> LT +370 </option>
+            <option value="352"> LU +352 </option>        
+            <option value="94"> LK +94 </option>
+            <option value="1-758"> LC +1-758 </option>
+            <option value="590"> MF +590 </option>
+            <option value="853"> MO +853 </option>
+            <option value="389"> MK +389 </option>
+            <option value="261"> MG +261 </option>
+            <option value="265"> MW +265 </option>
+            <option value="60"> MY +60 </option>
+            <option value="960"> MV +960 </option>
+            <option value="223"> ML +223 </option>
+            <option value="356"> MT +356 </option>
+            <option value="692"> MH +692 </option>
+            <option value="222"> MR +222 </option>
+            <option value="230"> MU +230 </option>
+            <option value="52"> MX +52 </option>
+            <option value="373"> MD +373 </option>
+            <option value="377"> MC +377 </option>
+            <option value="1-670"> MP +1-670 </option>
+            <option value="976"> MN +976 </option>
+            <option value="382"> ME +382 </option>
+            <option value="1-664"> MS +1-664 </option>
+            <option value="212"> MA +212 </option>
+            <option value="258"> MZ +258 </option>
+            <option value="95"> MM +95 </option>
+            <option value="264"> NA +264 </option>
+            <option value="674"> NR +674 </option>
+            <option value="977"> NP +977 </option>
+            <option value="31"> NL +31 </option>
+            <option value="687"> NC +687 </option>
+            <option value="64"> NZ +64 </option>
+            <option value="505"> NI +505 </option>
+            <option value="227"> NE +227 </option>
+            <option value="234"> NG +234 </option>
+            <option value="683"> NU +683 </option>
+            <option value="47"> NO +47 </option>
+            <option value="968"> OM +968 </option>
+            <option value="92"> PK +92 </option>
+            <option value="680"> PW +680 </option>
+            <option value="689"> PF +689 </option>
+            <option value="970"> PS +970 </option>
+            <option value="507"> PA +507 </option>
+            <option value="675"> PG +675 </option>
+            <option value="595"> PY +595 </option>
+            <option value="51"> PE +51 </option>
+            <option value="63"> PH +63 </option>
+            <option value="508"> PM +508 </option>
+            <option value="64"> PN +64 </option>
+            <option value="48"> PL +48 </option>
+            <option value="351"> PT +351 </option>
+            <option value="1-787, 1-939"> PR +1-939 </option>
+            <option value="974"> QA +974 </option>
+            <option value="262"> RE +262 </option>
+            <option value="40"> RO +40 </option>
+            <option value="7"> RU +7 </option>
+            <option value="381"> RS +381 </option>
+            <option value="250"> RW +250 </option>
+            <option value="290"> SH +290 </option>
+            <option value="378"> SM +378 </option>
+            <option value="239"> ST +239 </option>
+            <option value="503"> SV +503 </option>
+            <option value="966"> SA +966 </option>
+            <option value="221"> SN +221 </option>
+            <option value="248"> SC +248 </option>
+            <option value="232"> SL +232 </option>
+            <option value="65"> SG +65 </option>
+            <option value="1-721"> SX +1-721 </option>
+            <option value="421"> SK +421 </option>
+            <option value="386"> SI +386 </option>
+            <option value="677"> SB +677 </option>
+            <option value="252"> SO +252 </option>
+            <option value="211"> SS +211 </option>
+            <option value="249"> SD +249 </option>
+            <option value="597"> SR +597 </option>
+            <option value="47"> SJ +47 </option>
+            <option value="268"> SZ +268 </option>
+            <option value="46"> SE +46 </option>
+            <option value="963"> SY +963 </option>
+            <option value="886"> TW +886 </option>
+            <option value="992"> TJ +992 </option>
+            <option value="235"> TD +235 </option>
+            <option value="255"> TZ +255 </option>
+            <option value="670"> TL +670 </option>
+            <option value="66"> TH +66 </option>
+            <option value="228"> TG +228 </option>
+            <option value="690"> TK +690 </option>
+            <option value="676"> TO +676 </option>
+            <option value="1-868"> TT +1-868 </option>
+            <option value="216"> TN +216 </option>
+            <option value="90"> TR +90 </option>
+            <option value="993"> TM +993 </option>
+            <option value="1-649"> TC +1-649 </option>
+            <option value="688"> TV +688 </option>
+            <option value="256"> UG +256 </option>
+            <option value="380"> UA +380 </option>
+            <option value="1"> US +1 </option>
+            <option value="598"> UY +598 </option>
+            <option value="998"> UZ +998 </option>
+            <option value="678"> VU +678 </option>
+            <option value="1-340"> VI +1-340 </option>
+            <option value="379"> VA +379 </option>
+            <option value="1-284"> VG +1-284 </option>
+            <option value="58"> VE +58 </option>
+            <option value="84"> VN +84 </option>
+            <option value="1-784"> VC +1-784 </option>
+            <option value="685"> WS +685 </option>
+            <option value="681"> WF +681 </option>
+            <option value="383"> XK +383 </option>
+            <option value="967"> YE +967 </option>
+            <option value="262"> YT +262 </option>
+            <option value="260"> ZM +260 </option>
+            <option value="263"> ZW +263 </option>
+            <option value="27"> ZA +27 </option>
+            </select>
+            <input type="text" class="phone-input" name="Phone Number" value="" class="" id="mce-MMERGE4" placeholder="Phone" required>
+    </div>
+    </div>
+<label>Website</label>
+<input type="text" value="" name="Website" class="" id="mce-MMERGE3" placeholder="Website">
+<label>Interested in</label>
+<select name="Interested in" id="" class="full_width">
+    <option value="" selected disabled>Interested In </option>
+    <option value="Digital Solution">Digital Solution</option>
+    <option value="SaaS development">SaaS development</option>
+    <option value="AI Development">AI Development</option>
+    <option value="MVP Development">MVP Development</option>
+    <option value="Prototyping">Prototyping</option>
+    <option value="Digital Marketing">Digital Marketing</option>
+    <option value="Web Development">Web Development</option>
+    <option value="Mobile App Development">Mobile App Development</option>
+    <option value="UI/UX Design">UI/UX Design</option>
+    <option value="Other">Other</option>
+    </select>
+<label>Budget</label>
+<select name="Budget">
+    <option value="" selected disabled>Budget </option>
+    <option value="5000-10000">5000-10000</option>
+    <option value="10000-20000">10000-20000</option>
+    <option value="20000-50000">20000-50000</option>
+    <option value="50000-100000">50000-100000</option>
+    <option value="100000-500000">100000-500000</option>
+    <option value="500000+">500000+</option>
+   </select>
+<label>Message</label>
+<textarea name="Message" id="mce-MMERGE2" placeholder="Message" id="" cols="30" rows="3"></textarea>
+</div>
+<div class="rows_beta">
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+
+<!-- <div style="position: absolute; left: -5000px;" aria-hidden="true">
+<input type="text" name="b_4d5bf31cd0d012031c3af0d1d_cbd0f44ebf" tabindex="-1" value="">
+</div> -->
+<div class="clear">
+    <input type="submit" value="Submit" name="Submitted" id="mc-embedded-subscribe" class="button_submit_a">
+</div>
+</div>
+</form>
+</div>
+</div>
+ 
+<div class="footer_row_contact_ nd">
+<ul>
+<li class="new_contact_title">Email us here</li>
+<li><a href="mailto:info@infiniti.dev" style="text-transform:lowercase"><span>info@infiniti.dev</span></a></li>
+</ul>
+<ul>
+<li class="new_contact_title">Find US</li>
+<li><a href="https://maps.app.goo.gl/6KCqoF4KXQPnYvwx8" target="_blank">5400 Ramsey st, Fayetteville, North Carolina, USA</a> <br> <a href="tel:+1(251)3856048"> 📞 +1 (251) 3856048 </a></li>
+<li> ------------------------</li>
+<li><a href="https://maps.app.goo.gl/V3K2WjQAKL1mERGG7?g_st=iw" target="_blank">Block F G 7/3, Blue Area, Islamabad, Islamabad Capital Territory</a> <br> <a href="tel:+923555807742"> 📞 +92 3555807742</a> </li>
+</ul>
+<div class="contact_icons">
+<li class="new_contact_title">SOCIAL LINKS</li>
+<a href="https://www.linkedin.com/company/infiniti-dev/"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -3px; margin-left: 3px;" height="1.2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+<a href="https://wa.me/+1(251)3856048?text=Hey,%20you%20have%20a%20great%20portfolio!Can%20you%20help%20me%20with….."><svg style="margin-bottom: -3px; margin-left: 3px;" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+<a href="https://clutch.co/profile/infiniti-software#highlights"><img src="img/clutch.png" style="height: 18px; width: 18px;"></a>
+</div>
+</div>
+
+</section>
+</section>
+</div>
+<style>
+    .no_foot_spec {
+        display: none !important;
+        visibility: hidden !important;
+    }
+</style>
+</div>
+
+<s<span class="no_foot_spec">
+<footer class="footer_main footer_general">
+<div class="container">
+<div class="row footer_row_contact_1">
+<ul class="mobile-d-n">
+<li><img src="img/studio/logo-05.jpeg" alt=""></li>
+</ul>
+<ul>
+
+<li><a href="./home.html">work</a></li>
+<li><a href="./studio.html">studio</a></li>
+<li><a href="./services.html">services</a></li>
+<li><a href="./webdevelopment.html">web development</a></li>
+<li><a href="./appdevelopment.html">app development</a></li>
+<li><a href="./digitalmarkiting.html">digital marketing</a></li>
+<li><a href="./contact.html">contact</a></li>
+</ul>
+
+<ul>
+  <li><a>Email us here </a></li>
+    <li><a href="mailto:info@infiniti.dev" style="text-transform:lowercase"><span>info@infiniti.dev</span></a></li>
+  </ul>
+  <ul>
+    <li><a href="https://maps.app.goo.gl/6KCqoF4KXQPnYvwx8" target="_blank">5400 Ramsey st, Fayetteville, <br> North Carolina, USA</a> <br> <a href="tel:+1(251)3856048"><span >📞</span> +1 (251)3856048</a></li>
+      <li> ------------------------</li>
+  <li><a href="https://maps.app.goo.gl/V3K2WjQAKL1mERGG7?g_st=iw" target="_blank">Block F G 7/3, Blue Area, Islamabad,<br>
+     Islamabad Capital Territory</a> <br> <a href="tel:+923555807742">📞 +92 3555807742</a></li>
+  </ul>
+
+
+  <ul>
+  <li><a href="https://www.linkedin.com/company/infiniti-dev/">LinkedIn</a></li>
+  <li><a href="https://wa.me/+923555807742?text=Hey,%20you%20have%20a%20great%20portfolio!Can%20you%20help%20me%20with…..">WhatsApp</a></li>
+  <li><a href="https://clutch.co/profile/infiniti-software#highlights">Clutch</a></li>
+  </ul>
+
+</div>
+</div>
+</footer> </span>
+
+<script src="js/angular/magnetCurs.js"></script>
+<script src="js/home.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script>
+    $('.js-tilt').tilt({
+        scale: 1.2
+    });
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="js/3333064.js"></script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        $("#button_one_s").click(function () {
+            $("#menu_drop").toggleClass("mainrilind");
+            $("#button_one_s").toggleClass("transfrom_b");
+        });
+    });
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+</html>

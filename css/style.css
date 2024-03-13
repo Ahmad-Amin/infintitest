@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif !important;
+}
+
+.navbar {
+  background: rgba(107, 105, 105, 0.158) !important;
+}
+
+.banner-main-heading {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/list-icon.png");
+}
+
+.awardSection {
+  background-image: url("../img/award-background-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.awardHeading {
+  background: #191727;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+}
+
+.awardOfYearSection {
+  background: #1e1e1e;
+}
+
+.expertServicesCard {
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  border-radius: 19px;
+  background: #f5f5f5;
+}
+
+.expertServicesCard .card-head,
+.expertServicesCard .paras {
+  color: #191727;
+}
+
+.link-icon {
+  border-radius: 15px 51px 23px 56px;
+  width: 32px;
+  height: 37px;
+  background: #9442fe;
+}
+
+.card-footer span {
+  color: #191727;
+  font-weight: 500;
+}
+
+.card-footer {
+  padding-left: 8%;
+}
+
+.cardsHeading {
+  font-size: 50px;
+}
+
+.reasonIcon {
+  height: 110px;
+}
+
+.choose-head1 {
+  font-size: 2.5em;
+}
+
+.whatWeDoSection .col-lg-9 p {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  color: #292b2c;
+}
+
+.whatWeDoSection {
+  background-color: #f5f5f5;
+}
+
+.serviceHeading1 h5 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 86%;
+  color: #191727;
+}
+
+.serviceBody1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156%;
+  color: #000;
+}
+
+.serviceBody1 {
+  min-height: 300px;
+}
+
+.img-expand {
+  width: 75%;
+  height: 500px;
+  margin-right: -2.5px;
+  margin-left: -2.5px;
+  padding-right: 0px;
+  padding-left: 0px;
+  object-fit: cover !important;
+}
+
+#img-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#img-container img {
+  border-radius: 17px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hoverImgContainer .countryImgPara {
+  left: -13%;
+  bottom: 25%;
+}
+
+.your-hover-class-parent .countryImgPara {
+  left: 10%;
+  bottom: 17%;
+  transform: rotate(0deg);
+  transition: transform 0.3 linear;
+  white-space: nowrap;
+}
+
+.countryImgPara {
+  left: 0%;
+  bottom: 17%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48%;
+  letter-spacing: 0.1em;
+  color: #fff;
+  transform: rotate(-90deg);
+  transition: transform 0.3s linear;
+  white-space: nowrap;
+}
+
+.countryImgPara1 {
+  left: 3%;
+  bottom: 17%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48%;
+  letter-spacing: 0.1em;
+  color: #fff;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.hoverImgContainer .countryImgPara2 {
+  left: -23%;
+  bottom: 28%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48%;
+  letter-spacing: 0.1em;
+  color: #fff;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.your-hover-class-parent .countryImgPara2 {
+  left: 3%;
+  bottom: 17%;
+}
+
+.countryImgPara2 {
+  left: 3%;
+  bottom: 17%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48%;
+  letter-spacing: 0.1em;
+  color: #fff;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.special_contact_all_p .col-md-6:nth-child(2) h4 {
+  font-weight: 500;
+}
+
+.awardSection img {
+  width: 170px;
+}
+
+.awardOfYearSection img {
+  width: 80%;
+}
+
+.expertServicesCard p {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(25, 23, 39, 0.9);
+}
+
+.carousel-caption p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000;
+}
+
+.whyUsSection p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(25, 23, 39, 0.62);
+}
+
+.img-expand {
+  position: absolute;
+}
+
+.home-head {
+  font-size: 3em;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1700px) {
+  .serviceBody1 {
+    min-height: 220px;
+  }
+
+  .home-head {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: #0f1332 !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .choose-head {
+    font-size: 2.5em;
+  }
+
+  .home-slider {
+    padding-top: 10%;
+  }
+
+  .home-slider .home-container {
+    padding-left: 4%;
+  }
+  .home-head {
+    font-size: 1.5em;
+    max-width: 98%;
+  }
+  .home-para {
+    max-width: 90%;
+  }
+
+  .home-buttons .home-btn {
+    font-size: 0.7em;
+  }
+
+  .home-clickers {
+    width: 100%;
+  }
+
+  .slide-click {
+    font-size: 0.7em;
+  }
+
+  .cardsHeading {
+    font-size: 35px;
+    line-height: 40px !important;
+  }
+
+  .awardSection img {
+    width: 120px;
+  }
+
+  .awardOfYearSection img {
+    width: 70%;
+  }
+
+  .paras {
+    padding: 0% 0% 0% 8%;
+  }
+
+  .footer_row_contact_1 img {
+    top: 0px;
+  }
+
+  .countryImgPara {
+    bottom: 25%;
+  }
+
+  .your-hover-class-parent .countryImgPara {
+    left: 13%;
+  }
+  .countryImgPara2 {
+    bottom: 22%;
+  }
+}

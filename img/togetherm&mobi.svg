@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77.094" height="54.524" viewBox="0 0 77.094 54.524">
+  <g id="Group_343" data-name="Group 343" transform="translate(-3078.552 251.562)">
+    <g id="monitor" transform="translate(3080.052 -250.062)">
+      <rect id="Rectangle_219" data-name="Rectangle 219" width="55.871" height="39.109" rx="2" transform="translate(0 0)" stroke-width="3" stroke="#3a345e" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_25" data-name="Line 25" x2="22.348" transform="translate(16.761 50.283)" fill="none" stroke="#3a345e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Line_26" data-name="Line 26" y2="11.174" transform="translate(27.935 39.109)" fill="none" stroke="#3a345e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="smartphone" transform="translate(3124.682 -240.628)">
+      <rect id="Rectangle_220" data-name="Rectangle 220" width="29.463" height="42.09" rx="4" transform="translate(0 0)" stroke-width="3" stroke="#3a345e" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_27" data-name="Line 27" transform="translate(14.732 33.672)" fill="none" stroke="#3a345e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

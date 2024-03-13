@@ -1,0 +1,681 @@
+
+<!doctype html>
+<html lang="en" ng-app="rilind">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#272F34" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/build.min.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/1app.min.css">
+<link rel="stylesheet" type="text/css" href="css/app.min.css">
+
+<link rel="stylesheet" href="css/bottom_contact_css.css">
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-sanitize.js"></script>
+<script src="js/angular/moment.min.js"></script>
+<script src="js/angular/aos.js"></script>
+<script src="js/angular/base.min.js"></script>
+<script src="js/angular/bootstrap.min.js"></script>
+<script src="app.js"></script>
+ 
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-261522729-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-261522729-1');
+</script>
+
+ <style media="screen">
+        .bg-init,
+        .animsition-overlay-slide {
+            z-index: 999999999009 !important;
+            background-color: #9442f2 !important;
+            display: block;
+            background-image: url('img/logo background.jpg');
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-init" ng-controller="HeaderCtrl">
+
+ 
+<div class="header">
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<div id="myNav" class="overlay_navigationbar nav_scroll">
+<div class="canvas">
+<div class="circles">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+<div class="circless">
+<div class="circle research"></div>
+<div class="circle design"></div>
+</div>
+</div>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close <span>x</span></a>
+<div class="overlay-content">
+<a class="nav-link animsition-link" href="./home.html">work</a>
+<a class="nav-link animsition-link" href="./studio.html">Studio</a>
+
+<div class="dropdown mobile-d-n">
+<span class="drop-thing">
+<a class="nav-link animsition-link" href="./services.html">Services <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</span>
+<div class="dropdown-content hidden_menu_new_nav">
+<a class="nav-link animsition-link" href="./webdevelopment.html">Web Development</a>
+<a class="nav-link animsition-link" href="./appdevelopment.html">App Development</a>
+<a class="nav-link animsition-link" href="./digitalmarkiting.html">Digital Marketing</a>
+<a class="nav-link animsition-link" href="./prototype.html">Prototype</a>
+</div>
+</div>
+
+<div class="dropdown desktop-d-n">
+<span class="drop-thing">
+<a class="nav-link animsition-link" href="./services.html">Services</a>
+<i id="button_one_s" onclick="myFunc()" class="fa fa-angle-up desktop-d-n" aria-hidden="true"></i>
+</span>
+<div class="dropdown-content" id="menu_drop">
+<a class="nav-link animsition-link" href="./webdevelopment.html">Web Development</a>
+<a class="nav-link animsition-link" href="./appdevelopment.html">App Development</a>
+<a class="nav-link animsition-link" href="./digitalmarkiting.html">Digital Marketing</a>
+<a class="nav-link animsition-link" href="./prototype.html">Prototype</a>
+</div>
+</div>
+<a class="nav-link animsition-link" href="./contact.html">Contact</a>
+</div>
+</div>
+<div id="verticalmenu" class="slide_navbar">
+<a href="./home.html"><img src="img/logo-03 (1)white.png" alt srcset></a>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="hambuger_navbar_one">
+<img src="img/menu_burger.svg" alt srcset></span>
+<span></span>
+</div> </div>
+
+ 
+<div>
+<div class="animsition-overlay">
+<section class="contact_holder2" style = "background-image: url('img/map2.png');" >
+<div class="contact_dark_section">
+<div class="row">
+<h2>Have an idea?</h2>
+<p>Bring your next project to life. Please fill in the information below and one of our consultants
+will reach out to you today!</p>
+</div>
+<div id="mc_embed_signup">
+<form action="https://api.web3forms.com/submit" method="POST" id="mc-embedded-subscribe-form" class="validate" data-netlify="true" onsubmit="submit" data-netlify-honeypot="bot-field" action="/thankyou.html/">
+<div class="row input_row">
+    <input type="hidden" name="access_key" value="11adc1dd-2d47-43ae-a237-49962f7728de">
+ <input name="bot-field" style="display: none;">
+<input type="hidden" name="redirect" value="https://infiniti.dev/thankyou.html">
+<input type="hidden" name="subject" value= "New form response from Contact Form" />
+<input type="text" value="" name="Name" class="" id="mce-FNAME" placeholder="Full Name" required>
+<input type="email" value="" name="Email" class="email" id="mce-EMAIL" placeholder="Email" required>
+<div class="remote" style="display: flex; width: 100%;" >
+    <select class="code" name="Code">
+        <option value="" selected disabled>Code </option>
+        <option value="93"> AF +93 </option>
+        <option value="355"> AL +355 </option>
+        <option value="1-684"> AS +1-684 </option>
+        <option value="376"> AD +376 </option>
+        <option value="244"> AO +244 </option>
+        <option value="971"> AE +971 </option>
+        <option value="1-264"> AI +1-264 </option>
+        <option value="672"> AQ +672 </option>
+        <option value="1-268"> AG +1-268 </option>
+        <option value="54"> AR +54 </option>
+        <option value="374"> AM +374 </option>
+        <option value="599"> AN +599 </option>
+        <option value="297"> AW +297 </option>
+        <option value="61"> AU +61 </option>
+        <option value="43"> AT +43 </option>
+        <option value="994"> AZ +994 </option>
+        <option value="590"> BL +590 </option>
+        <option value="1-242"> BS +1-242 </option>
+        <option value="973"> BH +973 </option>
+        <option value="880"> BD +880 </option>
+        <option value="1-246"> BB +1-246 </option>
+        <option value="375"> BY +375 </option>
+        <option value="32"> BE +32 </option>
+        <option value="501"> BZ +501 </option>
+        <option value="229"> BJ +229 </option>
+        <option value="1-441"> BM +1-441 </option>
+        <option value="975"> BT +975 </option>
+        <option value="591"> BO +591 </option>
+        <option value="387"> BA +387 </option>
+        <option value="267"> BW +267 </option>
+        <option value="55"> BR +55 </option>
+        <option value="673"> BN +673 </option>
+        <option value="359"> BG +359 </option>
+        <option value="226"> BF +226 </option>
+        <option value="257"> BI +257 </option>
+        <option value="237"> CM +237 </option>
+        <option value="1"> CA +1 </option>
+        <option value="238"> CV +238 </option>
+        <option value="236"> CF +236 </option>
+        <option value="56"> CL +56 </option>
+        <option value="86"> CN +86 </option>
+        <option value="242"> CG +242 </option>
+        <option value="61"> CX +61 </option>
+        <option value="61"> CC +61 </option>
+        <option value="41"> CH +41 </option>
+        <option value="57"> CO +57 </option>
+        <option value="682"> CK +682 </option>
+        <option value="506"> CR +506 </option>
+        <option value="53"> CU +53 </option>
+        <option value="599"> CW +599 </option>
+        <option value="357"> CY +357 </option>
+        <option value="420"> CZ +420 </option>
+        <option value="225"> CI +225 </option>
+        <option value="243"> CD +243 </option>
+        <option value="49"> DE +49 </option>
+        <option value="45"> DK +45 </option>
+        <option value="253"> DJ +253 </option>
+        <option value="213"> DZ +213 </option>
+        <option value="1-767"> DM +1-767 </option>
+        <option value="1-809, 1-829, 1-849"> DO +1-809 </option>
+        <option value="593"> EC +593 </option>
+        <option value="20"> EG +20 </option>
+        <option value="291"> ER +291 </option>
+        <option value="212"> EH +212 </option>
+        <option value="372"> EE +372 </option>
+        <option value="251"> ET +251 </option>
+        <option value="34"> ES +34 </option>
+        <option value="500"> FK +500 </option>
+        <option value="298"> FO +298 </option>
+        <option value="679"> FJ +679 </option>
+        <option value="358"> FI +358 </option>
+        <option value="691"> FM +691 </option>
+        <option value="33"> FR +33 </option>
+        <option value="241"> GA +241 </option>
+        <option value="220"> GM +220 </option>
+        <option value="240"> GQ +240 </option>
+        <option value="995"> GE +995 </option>
+        <option value="233"> GH +233 </option>
+        <option value="350"> GI +350 </option>
+        <option value="30"> GR +30 </option>
+        <option value="299"> GL +299 </option>
+        <option value="1-473"> GD +1-473 </option>
+        <option value="1-671"> GU +1-671 </option>
+        <option value="44"> GB +44 </option>
+        <option value="502"> GT +502 </option>
+        <option value="44-1481"> GG +44-1481 </option>
+        <option value="224"> GN +224 </option>
+        <option value="245"> GW +245 </option>
+        <option value="592"> GY +592 </option>
+        <option value="509"> HT +509 </option>
+        <option value="385"> HR +385 </option>
+        <option value="504"> HN +504 </option>
+        <option value="852"> HK +852 </option>
+        <option value="36"> HU +36 </option>
+        <option value="354"> IS +354 </option>
+        <option value="91"> IN +91 </option>
+        <option value="246"> IO +246 </option>
+        <option value="62"> ID +62 </option>
+        <option value="98"> IR +98 </option>
+        <option value="964"> IQ +964 </option>
+        <option value="353"> IE +353 </option>
+        <option value="44-1624"> IM +44-1624 </option>
+        <option value="972"> IL +972 </option>
+        <option value="39"> IT +39 </option>
+        <option value="1-876"> JM +1-876 </option>
+        <option value="81"> JP +81 </option>
+        <option value="44-1534"> JE +44-1534 </option>
+        <option value="962"> JO +962 </option>
+        <option value="7"> KZ +7 </option>
+        <option value="1-345"> KY +1-345 </option>
+        <option value="254"> KE +254 </option>
+        <option value="1-869"> KN +1-869 </option>
+        <option value="686"> KI +686 </option>
+        <option value="82"> KR +82 </option>
+        <option value="850"> KP +850 </option>
+        <option value="855"> KH +855 </option>
+        <option value="269"> KM +269 </option>
+        <option value="965"> KW +965 </option>
+        <option value="996"> KG +996 </option>
+        <option value="856"> LA +856 </option>
+        <option value="371"> LV +371 </option>
+        <option value="961"> LB +961 </option>
+        <option value="266"> LS +266 </option>
+        <option value="231"> LR +231 </option>
+        <option value="218"> LY +218 </option>
+        <option value="423"> LI +423 </option>
+        <option value="370"> LT +370 </option>
+        <option value="352"> LU +352 </option>        
+        <option value="94"> LK +94 </option>
+        <option value="1-758"> LC +1-758 </option>
+        <option value="590"> MF +590 </option>
+        <option value="853"> MO +853 </option>
+        <option value="389"> MK +389 </option>
+        <option value="261"> MG +261 </option>
+        <option value="265"> MW +265 </option>
+        <option value="60"> MY +60 </option>
+        <option value="960"> MV +960 </option>
+        <option value="223"> ML +223 </option>
+        <option value="356"> MT +356 </option>
+        <option value="692"> MH +692 </option>
+        <option value="222"> MR +222 </option>
+        <option value="230"> MU +230 </option>
+        <option value="52"> MX +52 </option>
+        <option value="373"> MD +373 </option>
+        <option value="377"> MC +377 </option>
+        <option value="1-670"> MP +1-670 </option>
+        <option value="976"> MN +976 </option>
+        <option value="382"> ME +382 </option>
+        <option value="1-664"> MS +1-664 </option>
+        <option value="212"> MA +212 </option>
+        <option value="258"> MZ +258 </option>
+        <option value="95"> MM +95 </option>
+        <option value="264"> NA +264 </option>
+        <option value="674"> NR +674 </option>
+        <option value="977"> NP +977 </option>
+        <option value="31"> NL +31 </option>
+        <option value="687"> NC +687 </option>
+        <option value="64"> NZ +64 </option>
+        <option value="505"> NI +505 </option>
+        <option value="227"> NE +227 </option>
+        <option value="234"> NG +234 </option>
+        <option value="683"> NU +683 </option>
+        <option value="47"> NO +47 </option>
+        <option value="968"> OM +968 </option>
+        <option value="92"> PK +92 </option>
+        <option value="680"> PW +680 </option>
+        <option value="689"> PF +689 </option>
+        <option value="970"> PS +970 </option>
+        <option value="507"> PA +507 </option>
+        <option value="675"> PG +675 </option>
+        <option value="595"> PY +595 </option>
+        <option value="51"> PE +51 </option>
+        <option value="63"> PH +63 </option>
+        <option value="508"> PM +508 </option>
+        <option value="64"> PN +64 </option>
+        <option value="48"> PL +48 </option>
+        <option value="351"> PT +351 </option>
+        <option value="1-787, 1-939"> PR +1-939 </option>
+        <option value="974"> QA +974 </option>
+        <option value="262"> RE +262 </option>
+        <option value="40"> RO +40 </option>
+        <option value="7"> RU +7 </option>
+        <option value="381"> RS +381 </option>
+        <option value="250"> RW +250 </option>
+        <option value="290"> SH +290 </option>
+        <option value="378"> SM +378 </option>
+        <option value="239"> ST +239 </option>
+        <option value="503"> SV +503 </option>
+        <option value="966"> SA +966 </option>
+        <option value="221"> SN +221 </option>
+        <option value="248"> SC +248 </option>
+        <option value="232"> SL +232 </option>
+        <option value="65"> SG +65 </option>
+        <option value="1-721"> SX +1-721 </option>
+        <option value="421"> SK +421 </option>
+        <option value="386"> SI +386 </option>
+        <option value="677"> SB +677 </option>
+        <option value="252"> SO +252 </option>
+        <option value="211"> SS +211 </option>
+        <option value="249"> SD +249 </option>
+        <option value="597"> SR +597 </option>
+        <option value="47"> SJ +47 </option>
+        <option value="268"> SZ +268 </option>
+        <option value="46"> SE +46 </option>
+        <option value="963"> SY +963 </option>
+        <option value="886"> TW +886 </option>
+        <option value="992"> TJ +992 </option>
+        <option value="235"> TD +235 </option>
+        <option value="255"> TZ +255 </option>
+        <option value="670"> TL +670 </option>
+        <option value="66"> TH +66 </option>
+        <option value="228"> TG +228 </option>
+        <option value="690"> TK +690 </option>
+        <option value="676"> TO +676 </option>
+        <option value="1-868"> TT +1-868 </option>
+        <option value="216"> TN +216 </option>
+        <option value="90"> TR +90 </option>
+        <option value="993"> TM +993 </option>
+        <option value="1-649"> TC +1-649 </option>
+        <option value="688"> TV +688 </option>
+        <option value="256"> UG +256 </option>
+        <option value="380"> UA +380 </option>
+        <option value="1"> US +1 </option>
+        <option value="598"> UY +598 </option>
+        <option value="998"> UZ +998 </option>
+        <option value="678"> VU +678 </option>
+        <option value="1-340"> VI +1-340 </option>
+        <option value="379"> VA +379 </option>
+        <option value="1-284"> VG +1-284 </option>
+        <option value="58"> VE +58 </option>
+        <option value="84"> VN +84 </option>
+        <option value="1-784"> VC +1-784 </option>
+        <option value="685"> WS +685 </option>
+        <option value="681"> WF +681 </option>
+        <option value="383"> XK +383 </option>
+        <option value="967"> YE +967 </option>
+        <option value="262"> YT +262 </option>
+        <option value="260"> ZM +260 </option>
+        <option value="263"> ZW +263 </option>
+        <option value="27"> ZA +27 </option>
+        </select>
+        <input type="text" class="phone-num" name="Phone Number" value="" class="" id="mce-MMERGE4" placeholder="Phone" required>
+        <input type="text" class="website-inp" value=""  name="Website" class="" id="mce-MMERGE3" placeholder="Website">
+</div>
+<!-- <input type="text" value="" name="Phone" class="" id="mce-MMERGE4" placeholder="Phone" required> -->
+<select name="interested_in" id="" class="full_width">
+    <option value="" selected disabled>Interested In </option>
+    <option value="Digital Solution">Digital Solution</option>
+    <option value="SaaS development">SaaS development</option>
+    <option value="AI Development">AI Development</option>
+    <option value="MVP Development">MVP Development</option>
+    <option value="Prototyping">Prototyping</option>
+    <option value="Digital Marketing">Digital Marketing</option>
+    <option value="Web Development">Web Development</option>
+    <option value="Mobile App Development">Mobile App Development</option>
+    <option value="UI/UX Design">UI/UX Design</option>
+    <option value="Other">Other</option>
+</select>
+<select name="budget">
+    <option value="" selected disabled>Budget </option>
+    <option value="5000-10000">5000-10000</option>
+    <option value="10000-20000">10000-20000</option>
+    <option value="20000-50000">20000-50000</option>
+    <option value="50000-100000">50000-100000</option>
+    <option value="100000-500000">100000-500000</option>
+    <option value="500000+">500000+</option>
+</select>
+<textarea name="MESSAGE" id="mce-MMERGE2" placeholder="Message" id="" cols="30" rows="10"></textarea>
+
+</div>
+<div class="row" style="padding: 5px;">
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+
+<!-- <div style="position: absolute; left: -5000px;" aria-hidden="true">
+<input type="text" name="b_4d5bf31cd0d012031c3af0d1d_cbd0f44ebf" tabindex="-1" value="">
+</div> -->
+<div class="clear">
+<input type="submit" value="Let's Go" name="Submitted" id="mc-embedded-subscribe" class="button_submit_a">
+</div>
+</div>
+</form>
+</div>
+
+<div class="row footer_row_contact_">
+  <ul>
+  <li><a class="contact_footer">Email us here </a></li>
+   <li><a href="mailto:info@infiniti.dev" style="text-transform:lowercase"><span>info@infiniti.dev</span></a></li>
+  </ul>
+<ul>
+<li><a href="https://maps.app.goo.gl/6KCqoF4KXQPnYvwx8" target="_blank">5400 Ramsey st, Fayetteville, North Carolina, USA</a> <br> <a href="tel:+1(251)3856048"><span >📞</span> +1 (251)3856048</a></li>
+      <li> ------------------------</li>
+  <li><a href="https://maps.app.goo.gl/V3K2WjQAKL1mERGG7?g_st=iw" target="_blank">Block F G 7/3, Blue Area, Islamabad,
+     Islamabad Capital Territory</a><br><a href="tel:+923555807742">📞 +92 3555807742</a></li>
+</ul>
+<ul>
+<li><a href="https://www.linkedin.com/company/infiniti-dev/">LinkedIn</a></li>
+  <li><a href="https://wa.me/+1(251)3856048?text=Hey,%20you%20have%20a%20great%20portfolio!Can%20you%20help%20me%20with…..">WhatsApp</a></li>
+  <li><a href="https://clutch.co/profile/infiniti-software#highlights">Clutch</a></li>
+</ul>
+</div>
+</div>
+ 
+<style>
+  .contact_footer {
+    font-size: 15px !important
+  }
+</style>
+<div class="contact_dark_section_maps">
+<div id="map">
+  <div class="map_img">
+  </div>
+
+</div>
+</div>
+
+</section>
+</div>
+<style>
+    .no_foot_spec {
+        display: none !important;
+        visibility: hidden !important;
+    }
+</style>
+<script>
+        function initMap() {
+            var e = new google.maps.Map(document.getElementById("map"), {
+                zoom: 16,
+                scrollwheel: !1,
+                center: {
+                  lat: 33.71832134073096,
+                  lng: 73.07132322649521
+                },
+                styles: [{
+                    featureType: "water",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#e9e9e9"
+                    }, {
+                        lightness: 17
+                    }]
+                }, {
+                    featureType: "landscape",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#f5f5f5"
+                    }, {
+                        lightness: 20
+                    }]
+                }, {
+                    featureType: "road.highway",
+                    elementType: "geometry.fill",
+                    stylers: [{
+                        color: "#ffffff"
+                    }, {
+                        lightness: 17
+                    }]
+                }, {
+                    featureType: "road.highway",
+                    elementType: "geometry.stroke",
+                    stylers: [{
+                        color: "#ffffff"
+                    }, {
+                        lightness: 29
+                    }, {
+                        weight: .2
+                    }]
+                }, {
+                    featureType: "road.arterial",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#ffffff"
+                    }, {
+                        lightness: 18
+                    }]
+                }, {
+                    featureType: "road.local",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#ffffff"
+                    }, {
+                        lightness: 16
+                    }]
+                }, {
+                    featureType: "poi",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#f5f5f5"
+                    }, {
+                        lightness: 21
+                    }]
+                }, {
+                    featureType: "poi.park",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#dedede"
+                    }, {
+                        lightness: 21
+                    }]
+                }, {
+                    elementType: "labels.text.stroke",
+                    stylers: [{
+                        visibility: "on"
+                    }, {
+                        color: "#ffffff"
+                    }, {
+                        lightness: 16
+                    }]
+                }, {
+                    elementType: "labels.text.fill",
+                    stylers: [{
+                        saturation: 36
+                    }, {
+                        color: "#333333"
+                    }, {
+                        lightness: 40
+                    }]
+                }, {
+                    elementType: "labels.icon",
+                    stylers: [{
+                        visibility: "off"
+                    }]
+                }, {
+                    featureType: "transit",
+                    elementType: "geometry",
+                    stylers: [{
+                        color: "#f2f2f2"
+                    }, {
+                        lightness: 19
+                    }]
+                }, {
+                    featureType: "administrative",
+                    elementType: "geometry.fill",
+                    stylers: [{
+                        color: "#fefefe"
+                    }, {
+                        lightness: 20
+                    }]
+                }, {
+                    featureType: "administrative",
+                    elementType: "geometry.stroke",
+                    stylers: [{
+                        color: "#fefefe"
+                    }, {
+                        lightness: 17
+                    }, {
+                        weight: 1.2
+                    }]
+                }]
+            });
+            new google.maps.Marker({
+                position: {
+                  lat: 25.0771753,
+                  lng: 55.1496346
+                },
+                map: e,
+                icon: "img/logo-03.png"
+            })
+        }
+    </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6V1PFtdP3xYfm9KQuKR618IS28g50FNY&callback=initMap">
+    </script>
+
+</div>
+
+<span class="no_foot_spec">
+<footer class="footer_main footer_general">
+<div class="container">
+<div class="row footer_row_contact_1">
+<ul class="mobile-d-n">
+<li><img src="img/studio/logo-05.jpeg" alt=""></li>
+</ul>
+<ul>
+
+<li><a href="./home.html">work</a></li>
+<li><a href="./studio.html">studio</a></li>
+<li><a href="./services.html">services</a></li>
+<li><a href="./webdevelopment.html">web development</a></li>
+<li><a href="./appdevelopment.html">app development</a></li>
+<li><a href="./digitalmarkiting.html">digital marketing</a></li>
+<li><a href="./contact.html">contact</a></li>
+</ul>
+
+<ul>
+  <li><a>Email us here </a></li>
+    <li><a href="mailto:info@infiniti.dev" style="text-transform:lowercase"><span>info@infiniti.dev</span></a></li>
+  </ul>
+  <ul>
+    <li><a href="https://maps.app.goo.gl/6KCqoF4KXQPnYvwx8" target="_blank">5400 Ramsey st, Fayetteville,<br> North Carolina, USA</a> <br> <a href="tel:+1(251)3856048"><span >📞</span> +1 (251)3856048</a></li>
+      <li> ------------------------</li>
+  <li><a href="https://maps.app.goo.gl/V3K2WjQAKL1mERGG7?g_st=iw" target="_blank">Block F G 7/3, Blue Area, Islamabad,<br>
+     Islamabad Capital Territory</a><br><a href="tel:+923555807742">📞 +92 3555807742</a></li>
+  </ul>
+
+
+  <ul>
+  <li><a href="https://www.linkedin.com/company/infiniti-dev/">LinkedIn</a></li>
+  <li><a href="https://wa.me/+1(251)3856048?text=Hey,%20you%20have%20a%20great%20portfolio!Can%20you%20help%20me%20with…..">WhatsApp</a></li>
+  <li><a href="https://clutch.co/profile/infiniti-software#highlights">Clutch</a></li>
+  </ul>
+
+</div>
+</div>
+</footer> </span>
+ 
+
+<script src="js/angular/magnetCurs.js"></script>
+<script src="js/home.min.js"></script>
+
+ <script>
+    $('.js-tilt').tilt({
+        scale: 1.2
+    });
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="js/3333064.js"></script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        $("#button_one_s").click(function () {
+            $("#menu_drop").toggleClass("mainrilind");
+            $("#button_one_s").toggleClass("transfrom_b");
+        });
+    });
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+</html>
+
