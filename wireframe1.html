@@ -52,7 +52,7 @@
                     </div>
                 </nav>
 
-                <div class="home-slider">
+                <div class="home-slider" id="slider" style="position: relative;">
                     <div class="home-container">
                         <h1 class="home-head">
                             We Build Powerful
@@ -78,7 +78,7 @@
                             </button>
 
                             <!-- <hr class="home-border"> -->
-                            <div class="home-clickers">
+                            <div class="home-clickers" style="position: absolute; bottom: 4%; width: 85%;">
                                 <button class="slide-click btn1" id="btn1">
                                     Digital Solutions
                                 </button>
@@ -867,7 +867,7 @@
         </div>
     </div>
 
-    <div class="container-fluid mb-5">
+    <div class="container-fluid mb-5 px-5">
         <div class="row align-items-center ">
             <div class="col-lg-4 text-center mb-4 d-sm-block d-none">
                 <h3 class="cardsHeading text-start" style="line-height: 70px;">We Are Located in
@@ -1077,7 +1077,7 @@
 
     <div class="no_foot_spec">
         <footer class="footer_main footer_general">
-            <div class="container">
+            <div class="container-fluid px-5">
                 <div class="row footer_row_contact_1">
                     <div class="col-lg-2 col-sm-3 col-6">
                         <ul class="">
@@ -1148,50 +1148,50 @@
     <script async src="https://widget.clutch.co/static/js/widget.js"></script>
 
     <script>
-        jQuery(document).ready(function () {
-            var imgs = jQuery('.img-expand');
-            var imgContainers = jQuery('.hoverImgContainer')
-            var contWidth = jQuery('#img-container').width();
-            var bigWidth = 40;
-            var smallWidth = (100 - bigWidth) / (imgs.length - 1);
-            var normalWidth = 70;
+        // jQuery(document).ready(function () {
+        //     var imgs = jQuery('.img-expand');
+        //     // var imgContainers = jQuery('.hoverImgContainer')
+        //     var contWidth = jQuery('#img-container').width();
+        //     var bigWidth = 40;
+        //     var smallWidth = (100 - bigWidth) / (imgs.length - 1);
+        //     var normalWidth = 70;
 
-            // Set the initial width of the first image
-            imgs.first().stop().css('width', '100%').addClass('your-hover-class');
+        //     // Set the initial width of the first image
+        //     imgs.first().stop().css('width', '100%').addClass('your-hover-class');
 
-            console.log(smallWidth);
-            console.log(bigWidth);
+        //     console.log(smallWidth);
+        //     console.log(bigWidth);
 
-            jQuery('.img-expand').mouseover(function () {
-                var $parentDiv = jQuery(this).parent('.position-relative');
+        //     jQuery('.img-expand').mouseover(function () {
+        //         var $parentDiv = jQuery(this).parent('.position-relative');
 
-                jQuery(this).stop().animate({
-                    width: '100%'
-                }, 300).addClass('your-hover-class');
+        //         jQuery(this).stop().animate({
+        //             width: '100%'
+        //         }, 300).addClass('your-hover-class');
 
-                jQuery(this).siblings().stop().animate({
-                    width: '50%'
-                }, 300).removeClass('your-hover-class');
+        //         jQuery(this).siblings().stop().animate({
+        //             width: '50%'
+        //         }, 300).removeClass('your-hover-class');
 
-                $parentDiv.addClass('your-hover-class-parent');
-            });
+        //         $parentDiv.addClass('your-hover-class-parent');
+        //     });
 
-            jQuery('.img-expand').mouseout(function () {
-                var $parentDiv = jQuery(this).parent('.position-relative');
+        //     jQuery('.img-expand').mouseout(function () {
+        //         var $parentDiv = jQuery(this).parent('.position-relative');
 
-                jQuery(this).stop().animate({
-                    width: normalWidth + '%'
-                }, 300).removeClass('your-hover-class');
+        //         jQuery(this).stop().animate({
+        //             width: normalWidth + '%'
+        //         }, 300).removeClass('your-hover-class');
 
-                jQuery(this).siblings().stop().animate({
-                    width: normalWidth + '%'
-                }, 300);
+        //         jQuery(this).siblings().stop().animate({
+        //             width: normalWidth + '%'
+        //         }, 300);
 
-                imgContainers.removeClass('hoverImgContainer');
+        //         imgContainers.removeClass('hoverImgContainer');
 
-                $parentDiv.removeClass('your-hover-class-parent');
-            });
-        });
+        //         $parentDiv.removeClass('your-hover-class-parent');
+        //     });
+        // });
     </script>
 
     <script>

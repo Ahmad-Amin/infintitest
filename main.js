@@ -8,32 +8,32 @@ var interval_id = setInterval(change_img, 6000);
 
 function change_img() {
   if (count == 1) {
-    let source = "url('img/slider" + count + ".png')";
-    document.getElementById("slider").style.backgroundImage = source;
+    // let source = "url('img/slider" + count + ".png')";
+    // document.getElementById("slider").style.backgroundImage = source;
     document.querySelector(".home-head").innerHTML =
       "We Build Powerful <span class='banner-main-heading' style='color: #9442fe;'>Digital Solutions</span>";
     document.querySelector(".home-para").textContent =
       "Unlock the potential of your business with our tailored business development solutions. Our team at INFINITI specializes in crafting powerful digital solutions tailored to your unique need covering all aspects of your business. Let us transform your vision into reality and propel your business to new heights in the digital age.";
     count++;
   } else if (count == 2) {
-    let source = "url('img/slider" + count + ".jpg')";
-    document.getElementById("slider").style.backgroundImage = source;
+    // let source = "url('img/slider" + count + ".jpg')";
+    // document.getElementById("slider").style.backgroundImage = source;
     document.querySelector(".home-head").innerHTML =
       "Empowering your <span class='banner-main-heading' style='color: #9442fe;'>StartUp Journey</span>";
     document.querySelector(".home-para").textContent =
       "Unleashing MVP Excellence for Idea Validation, Rapid Launch, and Cost-Efficient Concept Realization. Elevate with us for Seamless Design, Development, Upgrades, and Pivots – Where Innovation Meets Precision!";
     count++;
   } else if (count == 3) {
-    let source = "url('img/slider" + count + ".jpg')";
-    document.getElementById("slider").style.backgroundImage = source;
+    // let source = "url('img/slider" + count + ".jpg')";
+    // document.getElementById("slider").style.backgroundImage = source;
     document.querySelector(".home-head").innerHTML =
       "Unleash the Power Of <span class='banner-main-heading' style='color: #9442fe;'>Generative AI</span>";
     document.querySelector(".home-para").textContent =
       "We harness the potential of Generative AI to create dynamic and customizable content, designs, and experiences. Experience the future of AI-driven creativity with our Generative AI solutions.";
     count++;
   } else if (count == 4) {
-    let source = "url('img/slider" + count + ".jpg')";
-    document.getElementById("slider").style.backgroundImage = source;
+    // let source = "url('img/slider" + count + ".jpg')";
+    // document.getElementById("slider").style.backgroundImage = source;
     document.querySelector(".home-head").innerHTML =
       "Empower your software development needs with a <span class='banner-main-heading' style='color: #9442fe;'>dedicated team</span>";
     document.querySelector(".home-para").textContent =

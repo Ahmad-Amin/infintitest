@@ -114,7 +114,7 @@
 }
 
 .img-expand {
-  width: 75%;
+  width: 100%;
   height: 500px;
   margin-right: -2.5px;
   margin-left: -2.5px;
@@ -136,8 +136,8 @@
 }
 
 .hoverImgContainer .countryImgPara {
-  left: -13%;
-  bottom: 25%;
+  /* left: -13%; */
+  bottom: 10%;
 }
 
 .your-hover-class-parent .countryImgPara {
@@ -149,14 +149,13 @@
 }
 
 .countryImgPara {
-  left: 0%;
-  bottom: 17%;
+  left: 10%;
+  bottom: 5%;
   font-weight: 700;
   font-size: 45px;
-  line-height: 48%;
-  letter-spacing: 0.1em;
+  line-height: 10%;
+  /* letter-spacing: 0.1em; */
   color: #fff;
-  transform: rotate(-90deg);
   transition: transform 0.3s linear;
   white-space: nowrap;
 }
